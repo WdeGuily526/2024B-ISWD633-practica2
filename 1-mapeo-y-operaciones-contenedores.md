@@ -18,6 +18,7 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 # COMPLETAR
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+![image](https://github.com/user-attachments/assets/c2c24651-2444-416b-87c6-1394bf9a7096)
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
@@ -36,6 +37,8 @@ docker exec <nombre contenedor> <comando> <argumentos opcionales>
 ### Usar el contenedor de jenkins creado previamente y ejecutar el comando ls con el argumento -l
 # COMPLETAR
 # COLOCAR UNA CAPTURA DE PANTALLA
+![image](https://github.com/user-attachments/assets/91115c60-af8f-40e0-a378-3d1abba22377)
+
 
 ### Para ejecutar un shell interactivo en un contenedor de Docker especificado.
 El comando **docker exec** te permite acceder a la sesión shell de un contenedor en ejecución, estarás dentro del contenedor y podrás ejecutar comandos como si estuvieras en una terminal normal. 
@@ -70,6 +73,7 @@ Ejecutar
 whoami
 ```
 # COLOCAR UNA CAPTURA DE PANTALLA
+![image](https://github.com/user-attachments/assets/96349f6f-5d33-4fab-8bcf-899b450549e2)
 
 **Si se visualiza el mensaje command not found, considerar**
 El problema se debe a que no se ha asignado un terminal de salida al contenedor al ejecutar el comando. Cuando usas docker exec -i jenkins-server /bin/bash en Windows, el comando se ejecuta pero no hay un terminal asignado para mostrar la salida del comando ls.
@@ -92,6 +96,7 @@ docker exec -it <nombre contenedor> <programa o comando>
 # COMPLETAR
 
 ### Colocar una captura de pantalla de la ventana que aparece después de colocar la contraseña.
+![image](https://github.com/user-attachments/assets/567c6bd2-42f4-4769-900e-3c486a7ede63)
 
 **Para este punto no es necesario continuar con la instalación de Jenkins**
 
